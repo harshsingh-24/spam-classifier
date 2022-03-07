@@ -11,7 +11,7 @@ I used the <a href="https://spamassassin.apache.org/old/publiccorpus/">Apache Sp
 
 <h2> :floppy_disk: Project Files Description</h2>
 
-<p>This Project includes 1 executable file, 3 text files as well as 2 directories for training and testing purposes. The description is as follows: </p>
+<p>This Project includes 1 executable file and 2 output files. The description is as follows: </p>
 <h4>Executable Files:</h4>
 <ul>
   <li><b>spam-classifier-optimized.ipynb</b> - A  Jupyter Notebook consisiting of all the functions required for training, testing and classification of the emails. Includes all functions required for classification operations.</li>
@@ -19,15 +19,8 @@ I used the <a href="https://spamassassin.apache.org/old/publiccorpus/">Apache Sp
 
 <h4>Output Files:</h4>
 <ul>
-  <li><b>model.txt</b> - Contains information about the vocabularies of the train set, such as the frequency and conditional probability of each word in Spam and Ham classes.</li>
-  <li><b>result.txt</b> - Contains information about the classified emails of the test set.</li>
   <li><b>evaluation.txt</b> - Contains evaluation results table as well as Confusion Matrix of Spam and Ham classes.</li>
-</ul>
-
-<h4>Source Directories:</h4>
-<ul>
-  <li><b>train directory</b> - Includes all emails for the training phase of the program.</li>
-  <li><b>test directory</b> - Includes all emails for the testing phase of the program.</li>
+  <li><b>spam_classifier_best.sav</b> - Contains the weights of the most optimized model. </li>
 </ul>
 
 ![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/aqua.png)
@@ -52,6 +45,7 @@ except the output layer includes a bias neuron and is fully connected to the nex
 ![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/aqua.png)
 
 <h2> :clipboard: Stages in development</h2>
+Every stage described here has been followed in the attached Jupyter Notebook.
 <ol>
   <li>Download the dataset.
   <li>Prepare the data
@@ -70,6 +64,16 @@ except the output layer includes a bias neuron and is fully connected to the nex
 </ol>
 
 ![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/aqua.png)
+
+<h2> ⚡ Technologies Used </h2>
+<p align="center"> 
+  <img src="https://github.com/devicons/devicon/blob/master/icons/python/python-original.svg" alt="python" width="50" height="50"/>
+  <img src="https://github.com/devicons/devicon/blob/master/icons/pandas/pandas-original-wordmark.svg" alt="pandas" width="50" height="50"/>
+  <img src="https://github.com/devicons/devicon/blob/master/icons/numpy/numpy-original.svg" alt="numpy" width="50" height="50"/>
+  <img src="https://github.com/devicons/devicon/blob/master/icons/jupyter/jupyter-original.svg" alt="jupyter" width="50" height="50"/>
+  <img src="https://github.com/scikit-learn/scikit-learn/blob/main/doc/logos/scikit-learn-logo-notext.png" alt="scikit-learn" width="90" height="50"/>
+  <img src="images/matplotlib_logo.png" alt="matplotlib-logo" width="100" height="50"/>
+</p>
 
 <h2> :clipboard: Dependencies</h2>
 <ul>
