@@ -30,16 +30,16 @@ I used the <a href="https://spamassassin.apache.org/old/publiccorpus/">Apache Sp
 The Perceptron is one of the simplest ANN architectures, invented in 1957 by Frank Rosenblatt. It is based on a slightly different artificial neuron 
 called a threshold logic unit (TLU), or sometimes a linear threshold unit (LTU). The inputs and output are numbers (instead of binary on/off values), 
 and each input connection is associated with a weight. The TLU computes a weighted sum of its inputs (z = w<sub>1</sub>x<sub>1</sub> +... + w<sub>n</sub>x<sub>n</sub> = x<sup>T</sup>w), then applies a step function to that sum and outputs the result: h<sub>w</sub>(x) = step(z), where 
-  z = x<sup>T</sup>w.
+  z = x<sup>T</sup>w. </p>
 <p align="center"> 
-<img src="images/perceptron.jpeg" alt="A single Perceptron" width = "200px" height="200px">
+<img src="images/perceptron.jpeg" alt="A single Perceptron" width = "400px" height="200px">
 </p>
+<p>
 An MLP is composed of one (passthrough) input layer, one or more layers of TLUs, called hidden layers, and one final layer of TLUs called the output layer. 
 The layers close to the input layer are usually called the lower layers, and the ones close to the outputs are usually called the upper layers. Every layer 
-except the output layer includes a bias neuron and is fully connected to the next layer.
+except the output layer includes a bias neuron and is fully connected to the next layer. </p>
 <p align="center"> 
-<img src="images/MLP.jpeg" alt="Multilevel Perceptron" width = "200px" height="200px">
-</p>
+<img src="images/MLP.jpeg" alt="Multilevel Perceptron" width = "430px" height="300px">
 </p>
 
 ![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/aqua.png)
@@ -72,7 +72,7 @@ Every stage described here has been followed in the attached Jupyter Notebook.
   <img src="https://github.com/devicons/devicon/blob/master/icons/numpy/numpy-original.svg" alt="numpy" width="50" height="50"/>
   <img src="https://github.com/devicons/devicon/blob/master/icons/jupyter/jupyter-original.svg" alt="jupyter" width="50" height="50"/>
   <img src="https://github.com/scikit-learn/scikit-learn/blob/main/doc/logos/scikit-learn-logo-notext.png" alt="scikit-learn" width="90" height="50"/>
-  <img src="images/matplotlib_logo.png" alt="matplotlib-logo" width="100" height="50"/>
+  <img src="images/matplotlib_logo.png" alt="matplotlib-logo" width="150" height="50"/>
 </p>
 
 <h2> :clipboard: Dependencies</h2>
@@ -84,3 +84,12 @@ Every stage described here has been followed in the attached Jupyter Notebook.
 </ul>
 
 ![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/aqua.png)
+
+<!-- CREDITS -->
+<h2 id="credits"> :scroll: Credits</h2>
+
+Harsh Singh Jadon 
+
+[![Twitter Badge](https://img.shields.io/badge/Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white)](https://twitter.com/harshsjadon)
+[![GitHub Badge](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/harshsingh-24)
+[![LinkedIn Badge](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/harsh-singh-jadon-55ab4519a/)
