@@ -5,7 +5,9 @@
 I have developed a spam classifier program in Python which classifies given emails as spam or ham using Multilayer Perceptron (MLP).
 
 <h2> 🌟 Overview</h2>
-I used the [Apache SpamAssassin public data](https://www.google.com) to train and test a ML-based classification model based on Multilevel Perceptron because of their high efficacy in terms of precision and recall. If you want to run this project, you only need the dependencies (see below). No extra files are needed as the Jupyter notebook will download all the required files.
+I used the <a href="https://spamassassin.apache.org/old/publiccorpus/">Apache SpamAssassin public data</a> to train and test a ML-based classification model based on Multilevel Perceptron because of their high efficacy in terms of precision and recall. If you want to run this project, you only need the dependencies (see below). No extra files are needed as the Jupyter notebook will download all the required files.
+
+![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/aqua.png)
 
 <h2> :floppy_disk: Project Files Description</h2>
 
@@ -29,4 +31,25 @@ I used the [Apache SpamAssassin public data](https://www.google.com) to train an
 </ul>
 
 ![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/aqua.png)
+
+<h2> :clipboard: Stages in development</h2>
+<ol>
+  <li>Download the dataset.
+  <li>Prepare the data
+    <ul>
+      <li>Remove all the email headers(like sender details, receiver details, subject, and date)
+      <li>Convert the whole email into lowercase
+      <li>Replace all the url's present with the word 'URL' in email
+      <li>Replace all the numbers present with the word 'NUM' in email
+      <li>Remove all the punctuations present in email
+    </ul>
+  <li>Split it into two sets - test and train. 
+  <li>Convert the resulting text into bag-of-words representation (vector of counts of all words that appears in the training instance)
+  <li>Train and evaluate the MLP model on recall, precision and ROC
+  <li>Fine-tune the MLP classifier
+  <li>Evaluate it on the test set
+</ol>
+
+![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/aqua.png)
+
 
