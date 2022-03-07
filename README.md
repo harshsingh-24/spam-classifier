@@ -21,6 +21,7 @@ I used the <a href="https://spamassassin.apache.org/old/publiccorpus/">Apache Sp
 <ul>
   <li><b>evaluation.txt</b> - Contains evaluation results table as well as Confusion Matrix of Spam and Ham classes.</li>
   <li><b>spam_classifier_best.sav</b> - Contains the weights of the most optimized model. </li>
+  <li><b>confusion_matrix.png</b> - Confusion Matrix of the final result. </li>
 </ul>
 
 ![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/aqua.png)
