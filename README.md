@@ -31,6 +31,25 @@ I used the <a href="https://spamassassin.apache.org/old/publiccorpus/">Apache Sp
 </ul>
 
 ![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/aqua.png)
+<h2> 📚 Multilevel Perceptron</h2>
+
+<p>
+The Perceptron is one of the simplest ANN architectures, invented in 1957 by Frank Rosenblatt. It is based on a slightly different artificial neuron 
+called a threshold logic unit (TLU), or sometimes a linear threshold unit (LTU). The inputs and output are numbers (instead of binary on/off values), 
+and each input connection is associated with a weight. The TLU computes a weighted sum of its inputs (z = w<sub>1</sub>x<sub>1</sub> +... + w<sub>n</sub>x<sub>n</sub> = x<sup>T</sup>w), then applies a step function to that sum and outputs the result: h<sub>w</sub>(x) = step(z), where 
+  z = x<sup>T</sup>w.
+<p align="center"> 
+<img src="images/perceptron.jpeg" alt="A single Perceptron" width = "200px" height="200px">
+</p>
+An MLP is composed of one (passthrough) input layer, one or more layers of TLUs, called hidden layers, and one final layer of TLUs called the output layer. 
+The layers close to the input layer are usually called the lower layers, and the ones close to the outputs are usually called the upper layers. Every layer 
+except the output layer includes a bias neuron and is fully connected to the next layer.
+<p align="center"> 
+<img src="images/MLP.jpeg" alt="Multilevel Perceptron" width = "200px" height="200px">
+</p>
+</p>
+
+![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/aqua.png)
 
 <h2> :clipboard: Stages in development</h2>
 <ol>
@@ -52,4 +71,12 @@ I used the <a href="https://spamassassin.apache.org/old/publiccorpus/">Apache Sp
 
 ![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/aqua.png)
 
+<h2> :clipboard: Dependencies</h2>
+<ul>
+  <li> NumPy v1.16.2 </li>
+  <li> Scikit-Learn v0.20.3 </li>
+  <li> Matplotlib v3.0.2 </li>
+  <li> Joblib v0.13.2 </li>
+</ul>
 
+![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/aqua.png)
