@@ -17,7 +17,7 @@ I used the <a href="https://spamassassin.apache.org/old/publiccorpus/">Apache Sp
   <li><b>spam-classifier-optimized.ipynb</b> - A  Jupyter Notebook consisiting of all the functions required for training, testing and classification of the emails. Includes all functions required for classification operations.</li>
 </ul>
 
-<h4>Output Files:</h4>
+<h4>Result Files:</h4>
 <ul>
   <li><b>evaluation.txt</b> - Contains evaluation results table as well as Confusion Matrix of Spam and Ham classes.</li>
   <li><b>spam_classifier_best.sav</b> - Contains the weights of the most optimized model. </li>
